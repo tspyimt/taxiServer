@@ -1,0 +1,38 @@
+{
+    "name": "Customers",
+    "base": "PersistedModel",
+    "properties": {
+        "phone": {
+            "type": "string",
+            "required": true
+        },
+        "email": {
+            "type": "string"
+        },
+        "lastname": {
+            "type": "string"
+        },
+        "fistname": {
+            "type": "string"
+        }, 
+        "password": {
+            "type": "string"
+        },
+        "avatar": {
+            "type": "string"
+        },
+        "createdAt": {
+            "type": "date"
+        },
+        "deviceId": {
+            "type": "string"
+        }
+    },
+    "validations": [],
+    "relations": {
+        
+    },
+    "acls": [],
+    "methods": []
+}
+

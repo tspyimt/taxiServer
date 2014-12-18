@@ -1,0 +1,40 @@
+{
+    "name": "Routers",
+    "base": "PersistedModel",
+    "properties": {
+        "customer": {
+            "type": "string"
+        },
+        "driver": {
+            "type": "string"
+        },
+        "start_point": {
+            "type": "object",
+            "description": "Object"
+        },
+        "end_point": {
+            "type": "object"
+        },
+        "duration": {
+            "type": "string"
+        },
+        "amount": {
+            "type": "string"
+        },
+        "status": {
+            "type": "string"  
+        },
+        "createAt": {
+            "type": "date"
+        }
+
+
+    },
+    "validations": [],
+    "relations": {
+        
+    },
+    "acls": [],
+    "methods": []
+}
+
